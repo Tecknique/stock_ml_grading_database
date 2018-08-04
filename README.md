@@ -14,16 +14,16 @@ pip install tqdm
 
 ## Introduction
 
-I have always been interested in stock market trends, and have been wondering if certain influencial factors contribute to whether a stock goes up or down. One of these factors that I was curious about is whether large financial enterprises have market manipulating abilities through their upgrading and downgrading of stocks. In order to do this, I decided to utilize the yahoo finance platform, and scrape each stock tickers webpage for the embedded JSON dictionary that contains the upgrade and downgrade data of the SNP 500 stocks.
+I have always been interested in stock market trends, and have been wondering if certain influencial factors contribute to whether a stock goes up or down. One of these factors that I was curious about is whether large financial enterprises have market predicting abilities through their upgrading and downgrading of stocks. In order to do this, I decided to utilize the yahoo finance platform, and scrape each stock tickers webpage for the embedded JSON dictionary that contains the upgrade and downgrade data of the S&P 500 stocks.
 
-In this release, I've created a code that separates each upgrade and downgrade into 5 different types of grades: Strong Buy, Buy, Hold, Sell, and Underperform. It then searches the stock value at the date of upgrading and downgrading and creates a chart of 90 following business days and compares it to the trend of the SNP 500 and adds each of these 90 day instances into the respective folder of the financial institution, then the type of grade. 
+In this release, I've created a code that separates each upgrade and downgrade into 5 different types of grades: Strong Buy, Buy, Hold, Sell, and Underperform. It then searches the stock value at the date of upgrading and downgrading and creates a chart of 90 following business days and compares it to the trend of the S&P 500 and adds each of these 90 day instances into the respective folder of the financial institution, then the type of grade. 
 
 Example dataframe:
 
 ![image](EA.png)
 
 
-This project combines stock analyst firms upgrade and downgrade data of the snp500 tickers, and compares the results with future stock price data. Its current executable, 'Loaded_Databases.ipynb, when ran with its instructions, can do analysis on the success rates of the analysts compared to what happened.
+This project combines stock analyst firms upgrade and downgrade data of the s&p500 tickers, and compares the results with future stock price data. Its current executable, 'Loaded_Databases.ipynb, when ran with its instructions, can do analysis on the success rates of the analysts compared to what happened.
 
 This program is scripted in Python, involves webscraping Yahoo Finance analyst lxml, creates Pandas Dataframes, and writes the dataframes into multiple CSV files.
 

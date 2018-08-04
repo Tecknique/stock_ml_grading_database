@@ -18,6 +18,11 @@ I have always been interested in stock market trends, and have been wondering if
 
 In this release, I've created a code that separates each upgrade and downgrade into 5 different types of grades: Strong Buy, Buy, Hold, Sell, and Underperform. It then searches the stock value at the date of upgrading and downgrading and creates a chart of 90 following business days and compares it to the trend of the SNP 500 and adds each of these 90 day instances into the respective folder of the financial institution, then the type of grade. 
 
+Example dataframe:
+
+![image](EA.png)
+
+
 This project combines stock analyst firms upgrade and downgrade data of the snp500 tickers, and compares the results with future stock price data. Its current executable, 'Loaded_Databases.ipynb, when ran with its instructions, can do analysis on the success rates of the analysts compared to what happened.
 
 This program is scripted in Python, involves webscraping Yahoo Finance analyst lxml, creates Pandas Dataframes, and writes the dataframes into multiple CSV files.
